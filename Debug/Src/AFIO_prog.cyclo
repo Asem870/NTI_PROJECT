@@ -1,0 +1,2 @@
+../Src/AFIO_prog.c:18:7:AFIO_voidSetEXTIConfiguration	1
+../Src/AFIO_prog.c:31:7:AFIO_voidRemapPeripheralPins	39

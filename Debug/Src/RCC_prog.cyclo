@@ -1,0 +1,4 @@
+../Src/RCC_prog.c:20:6:RCC_u8SetClkSource	1
+../Src/RCC_prog.c:26:4:RCC_u8SetClkStatus	17
+../Src/RCC_prog.c:102:6:RCC_voidEnablePeripheralClock	5
+../Src/RCC_prog.c:112:6:RCC_voidDisablePeripheralClock	5

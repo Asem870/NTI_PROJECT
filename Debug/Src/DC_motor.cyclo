@@ -1,0 +1,4 @@
+../Src/DC_motor.c:12:6:DCMotor_voidMotorInit	1
+../Src/DC_motor.c:19:6:DCMotor_voidMotorRotateClockwise	1
+../Src/DC_motor.c:25:6:DCMotor_voidMotorRotateAnticlockwise	1
+../Src/DC_motor.c:31:6:DCMotor_voidMotorStop	1
