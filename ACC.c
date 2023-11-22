@@ -107,6 +107,10 @@ void ACC_vdCarSpeed(void)
 		break;
 	}
 	}
+	else
+	{
+		//do nothing
+	}
 }
 
 
