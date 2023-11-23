@@ -60,7 +60,7 @@ void ACC_vdCarSpeed(void)
 	DC_MOTOR_STATE|=((GPIO_u8GetPinValue(GPIOA,ACC_AstrAccConfig[1]-> Left_Pin))<<2);
 	DC_MOTOR_STATE|=((GPIO_u8GetPinValue(GPIOA,ACC_AstrAccConfig[1]->Right_Pin))<<3);
 
-	/*State machine on the DCMOTOR STATES*/
+	/*Switch case on the DCMOTOR STATES*/
 	switch(DC_MOTOR_STATE)
 	{
 	case MOTOR_OFF:
