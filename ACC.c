@@ -33,6 +33,8 @@ u8	 DCmotorx_u8Error[DC_NUM];
 /*DC Motor Speed */
 u8   DCmotor_u8Speed = NOT_MOVE;
 
+/*Direction State */
+u8  IR_u8Read=0;
 
 /*=====================================================================================================================
                                           < Functions Definitions >
@@ -52,7 +54,7 @@ void ACC_vdCarSpeed(void)
 	u8 DC_MOTOR_STATE=0;
 
 	/* STATION MODE Doesnt send readings in reverse Direction*/
-	if(!reverse_dir)
+	if(IR_u8Read != reverse_dir)
 	{
 	/*Oring the PINS with the variable with shifting operator*/
 	DC_MOTOR_STATE|=((GPIO_u8GetPinValue(GPIOA,ACC_AstrAccConfig[0]-> Left_Pin))<<0);
